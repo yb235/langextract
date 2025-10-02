@@ -26,6 +26,7 @@
   - [Medication Extraction](#medication-extraction)
   - [Radiology Report Structuring: RadExtract](#radiology-report-structuring-radextract)
 - [Community Providers](#community-providers)
+- [Documentation](#documentation)
 - [Contributing](#contributing)
 - [Testing](#testing)
 - [Disclaimer](#disclaimer)
@@ -363,6 +364,31 @@ Explore RadExtract, a live interactive demo on HuggingFace Spaces that shows how
 Extend LangExtract with custom model providers! Check out our [Community Provider Plugins](COMMUNITY_PROVIDERS.md) registry to discover providers created by the community or add your own.
 
 For detailed instructions on creating a provider plugin, see the [Custom Provider Plugin Example](examples/custom_provider_plugin/).
+
+## Documentation
+
+LangExtract provides comprehensive documentation for users at all levels:
+
+### 📚 Getting Started
+- **[Getting Started Guide](docs/getting-started.md)** - Installation, setup, and your first extraction
+- **[Tutorial](docs/tutorial.md)** - Step-by-step examples from basic to advanced
+- **[Quick Start](#quick-start)** - Jump right in with the basics (this README)
+
+### 📖 Reference
+- **[API Reference](docs/api-reference.md)** - Complete API documentation with all parameters
+- **[Architecture](docs/architecture.md)** - System architecture and workflow
+- **[Deep Dive Architecture](docs/deepdivearchitecture.md)** - Detailed technical walkthrough
+
+### 🆘 Help
+- **[FAQ](docs/faq.md)** - Frequently asked questions
+- **[Troubleshooting](docs/troubleshooting.md)** - Solutions to common problems
+- **[Examples](docs/examples/)** - Real-world use cases and walkthroughs
+
+### 🔧 Advanced
+- **[Provider System](langextract/providers/README.md)** - Create custom LLM providers
+- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute to LangExtract
+
+**New to LangExtract?** Start with the [Getting Started Guide](docs/getting-started.md) for a beginner-friendly introduction!
 
 ## Contributing
 
